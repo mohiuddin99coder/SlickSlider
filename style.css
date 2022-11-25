@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom right, white, rgb(105, 82, 82));
+}
+h1 {
+    font-size: 5rem;
+    color:rgb(89, 71, 71);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+hr {
+    height:5px;
+    width: 50%;
+    margin-left: 25%;
+    background: linear-gradient(to bottom right, white, rgb(14, 14, 14));
+}
+
+.slick-slide {
+    margin: 10px;
+}
+
+.slick-slide img {
+    width: 20vw;
+    height: 20vh;
+    border: 0px solid #fff;
+    border-radius: 10px;
+}
