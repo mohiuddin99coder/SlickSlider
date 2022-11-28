@@ -41,11 +41,11 @@ let image2 = document.getElementById('image-2')
   fetch(`https://api.unsplash.com/photos/random?client_id=VUVYw0LK2mpBsk5brcR14DcIQpVvh_kXrh0jLZTVDTU`)
     .then((response) => response.json())
     .then((data) => {
-      image1.src = data.urls.regular
+      image2.src = data.urls.regular
     })
 let image3 = document.getElementById('image-3')
 fetch(`https://api.unsplash.com/photos/random?client_id=VUVYw0LK2mpBsk5brcR14DcIQpVvh_kXrh0jLZTVDTU`)
   .then((response) => response.json())
   .then((data) => {
-    image1.src = data.urls.regular
+    image3.src = data.urls.regular
   })
