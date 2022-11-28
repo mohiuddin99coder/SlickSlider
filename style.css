@@ -2,11 +2,19 @@ body {
     height: 100vh;
     background: linear-gradient(to bottom right, white, rgb(105, 82, 82));
 }
+.header {
+    display: flex;
+    justify-content: center;
+}
 h1 {
     font-size: 5rem;
     color:rgb(89, 71, 71);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
+}
+.container {
+    display: flex;
+    justify-content: center;
 }
 hr {
     height:5px;
@@ -22,6 +30,15 @@ hr {
 .slick-slide img {
     width: 40vw;
     height: 60vh;
-    border: 0px solid #fff;
+    border: 0px solid black;
     border-radius: 10px;
+    position: relative;
+    left: 28%;
+}
+
+.slick-prev {
+    left: 10%;
+}
+.slick-next {
+    right: 10%;
 }
